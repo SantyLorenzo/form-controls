@@ -1,0 +1,41 @@
+button {
+  height: 48px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  min-width: 136px;
+  padding: 0px 24px;
+  border-radius: 6px;
+  align-items: center;
+  font-family: "Inter";
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.button-outlined {
+  color: #8cc63f;
+  background: #0c0c0c;
+  border: 1.5px solid #8cc63f;
+}
+
+.button-filled {
+  color: #0c0c0c;
+  background: #8cc63f;
+  border: 1.5px solid #8cc63f;
+}
+
+.button-text {
+  color: #8cc63f;
+  background: transparent;
+  border: 1.5px solid transparent;
+}
+
+.button-icon {
+  display: flex;
+  margin-left: 12px;
+}
+
+button:focus {
+  outline: white solid 1.5px;
+}
